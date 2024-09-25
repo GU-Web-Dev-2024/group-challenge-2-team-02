@@ -1,5 +1,11 @@
-.container {
+#container {
+    display: flex;
     flex-direction: column;
+    border: 1px;
+    padding: 5px;
+}
+
+#container > form {
     gap: 10px;
     flex-wrap: wrap;
 }
