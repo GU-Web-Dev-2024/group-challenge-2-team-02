@@ -1,11 +1,13 @@
-#container {
+.container {
     display: flex;
     flex-direction: column;
     border: 1px;
     padding: 5px;
+    align-items: center;
+    background-color: red;
 }
 
-#container > form {
+/*form {
     gap: 10px;
     flex-wrap: wrap;
-}
+}*/
